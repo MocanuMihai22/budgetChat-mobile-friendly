@@ -237,10 +237,6 @@ footer{
     }
 
 
-
-
-
-
     @media(max-width: 1000px) {
         #sentence{
             font-family: "Darker Grotesque";
@@ -303,7 +299,6 @@ footer{
     
     }
     #phone-container2{
-       
            width: 160px;
            display:none;
        }
@@ -312,19 +307,15 @@ footer{
        width: 160px;
        display: flex;
        flex-direction: column;
-       
-       
         }
         #get-btn{
             margin-bottom: 10px;
         }
-        #phone-container{
-        
+        #phone-container{  
             width: 160px;
             display: none;
         }
-        #phone-container2{
-            
+        #phone-container2{            
                width: 160px;
                display:flex
            }
@@ -333,4 +324,7 @@ footer{
             flex-direction: row;
             justify-content: space-around;
            }
+          .logo{
+            margin-left: 20px;
+        } 
     }
